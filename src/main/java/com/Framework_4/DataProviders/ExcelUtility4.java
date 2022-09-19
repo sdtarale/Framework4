@@ -23,7 +23,7 @@ public class ExcelUtility4 {
 			int column=sh.getRow(0).getPhysicalNumberOfCells();
 			obj=new Object[row][column];
 			
-			for(int i=0;i<row;i++)
+			for(int i=1;i<row;i++)
 			{
 				for(int j=0;j<column;j++)
 				{
